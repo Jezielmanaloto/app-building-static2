@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-box: 0;
+    font-family: Montserrat;
+}
+
+#logo {
+    color: #eff7d3;
+}
+
+.navbar {
+    background-color: #535a3b;
+}
+
+.nav-link {
+    color: #eff7d3;
+}
+
+#landing {
+    background-image: url("./images/cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #eff7d3;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#feature {
+    color: #eff7d3;
+}
+
+.card {
+    background-color: #a7b99e;
+}
+
+.card img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+#categories {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap; 
+    gap: 15px;
+    margin: 0 10px;
+}
+
+#categories li {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    min-width: 220px; 
+}
+
+#categories img {
+    width: 250px; 
+    height: 250px; 
+    margin-bottom: 10px;
+    border-radius: 5px;
+    object-fit: cover; 
+}
+
+#categories a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+}
+
+#categories span {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+#footer {
+    background-color: #535a3b;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    #landing {
+        height: auto;
+        padding: 30px;
+        background-size: cover;
+    }
+
+    .category-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .category-list li {
+        width: 100%;
+        max-width: 350px; 
+        margin-bottom: 20px;
+    }
+
+    #footer {
+        font-size: 14px;
+    }
+
+    .card img {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-nav {
+        display: block;
+        text-align: left;
+    }
+
+    .category-list {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .category-list li {
+        width: 100%;
+        max-width: 90%;
+        margin: 10px auto;
+    }
+
+    #landing h1 {
+        font-size: 24px;
+    }
+
+    .card img {
+        height: 250px;
+    }
+
+    #contact {
+      display: flex;
+      align-items: center;
+      justify-content: center;  
+}
+
+    #footer {
+        font-size: 12px;
+    }
+}
