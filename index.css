@@ -17,6 +17,12 @@
     color: #eff7d3;
 }
 
+.nav-link:hover {
+  background-color: #3e6545;
+  border-radius: 4px;
+  color: #eff7d3
+}
+
 #landing {
     background-image: url("./images/cover.jpg");
     background-repeat: no-repeat;
@@ -83,6 +89,15 @@
     font-weight: 600;
 }
 
+.custom-btn {
+    background-color: #a7b99e; 
+    color: #eff7d3; 
+    border: none;
+}
+
+.custom-btn:hover {
+    background-color: #535a3b; 
+}
 
 #footer {
     background-color: #535a3b;
