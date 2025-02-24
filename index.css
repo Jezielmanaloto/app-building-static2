@@ -14,7 +14,7 @@
 }
 
 .nav-link {
-    color: #eff7d3;
+    color: #eff7d3 !important;
 }
 
 .nav-link:hover {
@@ -23,16 +23,22 @@
   color: #eff7d3
 }
 
-#landing {
+/*#landing {
     background-image: url("./images/cover.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #eff7d3;
-    height: 60vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}*/
+
+#home {
+  background: url('./images/cover.jpg') no-repeat center center/cover;
+  min-height: 70vh;
 }
+
 
 #feature {
     color: #eff7d3;
@@ -172,3 +178,4 @@
         font-size: 12px;
     }
 }
+
